@@ -1,0 +1,159 @@
+"""批量评估：对整个分组并发跑测试，汇总每个仓库的通过率与耗时。"""
+
+import json
+import logging
+import os
+from collections import Counter
+
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from datasets import load_dataset
+from tqdm import tqdm
+from typing import Iterator, Union
+
+from rebuild_spec.steps.run_tests import main as run_tests
+from rebuild_spec.steps.list_tests import main as get_tests
+from rebuild_spec.core.constants import RepoRecord, SPLIT, RUN_PYTEST_LOG_DIR
+from rebuild_spec.core.gitops import short_hash, current_branch
+
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
+
+
+def main(
+    dataset_name: str,
+    dataset_split: str,
+    repo_split: str,
+    base_dir: str,
+    branch: Union[str, None],
+    coverage: bool,
+    backend: str,
+    timeout: int,
+    num_cpus: int,
+    num_workers: int,
+    rebuild_image: bool,
+) -> None:
+    dataset: Iterator[RepoRecord] = load_dataset(dataset_name, split=dataset_split)  # type: ignore
+    if "swe" in dataset_name.lower():
+        if repo_split == "all":
+            repos = dataset["instance_id"]  # type: ignore
+        else:
+            repos = [one for one in dataset["instance_id"] if repo_split in one]  # type: ignore
+    else:
+        repos = SPLIT[repo_split]
+    triples = []
+    log_dirs = []
+    for example in dataset:
+        repo_name = example["repo"].split("/")[-1]
+        if "swe" in dataset_name.lower():
+            if repo_split != "all" and repo_split not in example["instance_id"]:
+                continue
+        else:
+            if repo_split != "all" and repo_name not in SPLIT[repo_split]:
+                continue
+        hashed_test_ids = short_hash(example["test"]["test_dir"])
+        if branch is None:
+            git_path = os.path.join(base_dir, example["instance_id"])
+            branch = current_branch(git_path)
+        log_dir = (
+            RUN_PYTEST_LOG_DIR
+            / example["instance_id"].split("/")[-1]
+            / branch
+            / hashed_test_ids
+        )
+        log_dirs.append(str(log_dir))
+        triples.append((example["instance_id"], example["test"]["test_dir"], branch))
+
+    with tqdm(total=len(repos), smoothing=0, desc="Evaluating repos") as pbar:
+        with ThreadPoolExecutor(max_workers=num_workers) as executor:
+            futures = {
+                executor.submit(
+                    run_tests,
+                    dataset_name,
+                    dataset_split,
+                    base_dir,
+                    repo,
+                    branch,
+                    test_dir,
+                    coverage,
+                    backend,
+                    timeout,
+                    num_cpus,
+                    rebuild_image=rebuild_image,
+                    verbose=0,
+                ): None
+                for repo, test_dir, branch in triples
+            }
+            for future in as_completed(futures):
+                pbar.update(1)
+
+    # 汇总结果
+    out = []
+    for name in tqdm(log_dirs):
+        report_file = os.path.join(name, "report.json")
+        name = name.split("/")[2]
+        test_ids = get_tests(name, verbose=0)
+        test_ids = [xx for x in test_ids for xx in x]
+        if not os.path.exists(report_file):
+            out.append(
+                {
+                    "name": name,
+                    "sum": 0,
+                    "passed": 0,
+                    "num_passed": 0,
+                    "num_tests": len(test_ids),
+                }
+            )
+            continue
+        with open(report_file, "r") as file:
+            report = json.load(file)
+        # 新版 pytest-json-report 的输出结构
+        if "created" in report:
+            tests = {x["nodeid"]: x["call"] for x in report["tests"] if "call" in x}
+        # 旧版结构
+        else:
+            tests = {
+                x["nodeid"]: {"outcome": x["outcome"], "duration": x["duration"]}
+                for x in report
+                if x["when"] == "call"
+            }
+        status = []
+        runtimes = []
+        no_runs = 0
+        for test_id in test_ids:
+            if test_id in tests and tests[test_id] is not None:
+                status.append(tests[test_id]["outcome"])
+                runtimes.append(tests[test_id]["duration"])
+                no_runs += 1
+            else:
+                status.append("failed")
+                runtimes.append(0)
+        status = Counter(status)
+        if no_runs == 0:
+            total = 0
+        else:
+            total = sum(runtimes)
+        if "xfail" not in status:
+            status["xfail"] = 0
+        passed = (status["passed"] + status["xfail"]) / sum(status.values())
+        out.append(
+            {
+                "name": name,
+                "sum": total,
+                "passed": passed,
+                "num_passed": status["passed"] + status["xfail"],
+                "num_tests": len(test_ids),
+            }
+        )
+    print("repo,runtime,num_passed/num_tests")
+    out = sorted(out, key=lambda x: x["sum"], reverse=True)
+    for x in out:
+        print(f"{x['name']},{x['sum']},{x['num_passed']}/{x['num_tests']}")
+    total_runtime = sum([x["sum"] for x in out])
+    averaged_passed = sum([x["passed"] for x in out]) / len(out)
+    print(f"total runtime: {total_runtime}")
+    print(f"average pass rate: {averaged_passed}")
+
+
+__all__ = []

@@ -1,0 +1,76 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "terminal-task-lab"
+version = "0.1.0"
+description = "终端任务合成与 RL 训练教学骨架"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic",
+    "tenacity",
+    "tqdm",
+    "openai",
+    "datasets",
+    "transformers",
+    "matplotlib>=3.10.8",
+    "flask>=3.1.3",
+]
+
+[project.optional-dependencies]
+harbor = ["harbor", "generative-ai-hub-sdk", "aioboto3", "terminal-bench"]
+train = ["ray", "hydra-core", "omegaconf"]
+dev = ["pytest", "pytest-cov", "pyyaml", "antlr4-python3-runtime==4.9.3"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = [
+  "viewer",
+  "viewer.*",
+  "harbor_bridge",
+  "harbor_bridge.*",
+  "task_factory",
+  "task_factory.*",
+  "task_audit",
+  "task_audit.*",
+  "rl",
+  "rl.*",
+]
+
+[tool.ruff.lint]
+ignore = [
+  "E501", # 不强制行长：prompt 模板可能很长
+  "E731", # 允许 lambda 赋值
+  "N999", # 允许模块名含连字符
+]
+select = [
+  "C",   # 编码规范
+  "E",   # 错误
+  "F",   # 类型与引用缺陷
+  "I",   # import 顺序
+  "W",   # 警告
+  "PL",  # PyLint 检查
+  "N",   # 命名规范
+  "D",   # docstring 风格
+  "UP",  # 可升级的旧语法
+  "FIX", # TODO / FIXME 提醒
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+# __init__.py 里的 import 顺序与未使用导入不报错
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["E402", "F401", "F403", "F811"]
+
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+[tool.isort]
+profile = "black"
+lines_after_imports = 2

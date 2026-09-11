@@ -1,0 +1,753 @@
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.0", "g1": "0.0", "b1": "0.0"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "1.0", "g1": "1.0", "b1": "1.0"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.5", "g1": "0.5", "b1": "0.5"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "1.0", "g1": "0.0", "b1": "0.0"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.0", "g1": "1.0", "b1": "0.0"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.0", "g1": "0.0", "b1": "1.0"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "1.0", "g1": "1.0", "b1": "0.0"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.0", "g1": "1.0", "b1": "1.0"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "1.0", "g1": "0.0", "b1": "1.0"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.123", "g1": "0.456", "b1": "0.789"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.001", "g1": "0.002", "b1": "0.003"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.999", "g1": "0.998", "b1": "0.997"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.25", "g1": "0.75", "b1": "0.25"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.33", "g1": "0.66", "b1": "0.99"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.1", "g1": "0.2", "b1": "0.3"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.3", "g1": "0.6", "b1": "0.9"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.0", "g1": "0.5", "b1": "1.0"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "1.0", "g1": "0.5", "b1": "0.0"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.2", "g1": "0.2", "b1": "0.8"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.8", "g1": "0.8", "b1": "0.2"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.15", "g1": "0.85", "b1": "0.35"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.42", "g1": "0.24", "b1": "0.68"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.555", "g1": "0.666", "b1": "0.777"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.11", "g1": "0.22", "b1": "0.33"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.77", "g1": "0.88", "b1": "0.99"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.05", "g1": "0.1", "b1": "0.15"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.95", "g1": "0.9", "b1": "0.85"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.3", "g1": "0.3", "b1": "0.3"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.7", "g1": "0.7", "b1": "0.7"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.4", "g1": "0.6", "b1": "0.8"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.8", "g1": "0.6", "b1": "0.4"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.125", "g1": "0.375", "b1": "0.625"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.875", "g1": "0.625", "b1": "0.375"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.0", "g1": "0.0", "b1": "0.5"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.5", "g1": "0.0", "b1": "0.0"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.0", "g1": "0.5", "b1": "0.0"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "1.0", "g1": "0.5", "b1": "0.5"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.5", "g1": "1.0", "b1": "0.5"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.5", "g1": "0.5", "b1": "1.0"}
+{"file_name": "sample_lib_a/tests/test20.cpp", "r1": "0.333", "g1": "0.333", "b1": "0.333"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.5", "g": "0.3", "b": "0.8", "factor1": "0.7", "factor2": "1.3"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.0", "g": "0.0", "b": "0.0", "factor1": "0.0", "factor2": "0.0"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "1.0", "g": "1.0", "b": "1.0", "factor1": "1.0", "factor2": "1.0"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.0", "g": "0.0", "b": "1.0", "factor1": "0.5", "factor2": "0.5"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "1.0", "g": "0.0", "b": "0.0", "factor1": "2.0", "factor2": "2.0"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.0", "g": "1.0", "b": "0.0", "factor1": "0.1", "factor2": "0.1"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.5", "g": "0.5", "b": "0.5", "factor1": "1.5", "factor2": "1.5"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.25", "g": "0.75", "b": "0.5", "factor1": "0.8", "factor2": "1.2"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.1", "g": "0.2", "b": "0.3", "factor1": "0.9", "factor2": "1.1"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.9", "g": "0.8", "b": "0.7", "factor1": "1.1", "factor2": "0.9"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.333", "g": "0.666", "b": "0.999", "factor1": "0.5", "factor2": "1.5"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.123", "g": "0.456", "b": "0.789", "factor1": "1.234", "factor2": "2.345"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.001", "g": "0.002", "b": "0.003", "factor1": "0.001", "factor2": "0.002"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.999", "g": "0.998", "b": "0.997", "factor1": "2.5", "factor2": "3.0"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "-0.5", "g": "0.5", "b": "0.5", "factor1": "-0.5", "factor2": "0.5"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.5", "g": "-0.5", "b": "0.5", "factor1": "0.5", "factor2": "-0.5"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.5", "g": "0.5", "b": "-0.5", "factor1": "1.5", "factor2": "-1.5"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "1.5", "g": "0.5", "b": "0.5", "factor1": "2.5", "factor2": "0.8"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.5", "g": "1.5", "b": "0.5", "factor1": "0.8", "factor2": "2.5"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.5", "g": "0.5", "b": "1.5", "factor1": "3.0", "factor2": "0.3"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.707", "g": "0.707", "b": "0.0", "factor1": "1.414", "factor2": "1.732"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.8", "g": "0.2", "b": "0.8", "factor1": "0.6", "factor2": "1.4"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.2", "g": "0.8", "b": "0.2", "factor1": "1.6", "factor2": "0.4"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.6", "g": "0.6", "b": "0.4", "factor1": "0.75", "factor2": "1.25"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.125", "g": "0.375", "b": "0.875", "factor1": "0.875", "factor2": "1.125"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.0", "g": "0.5", "b": "1.0", "factor1": "1.0", "factor2": "2.0"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "1.0", "g": "0.5", "b": "0.0", "factor1": "0.5", "factor2": "1.5"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.33", "g": "0.33", "b": "0.33", "factor1": "0.66", "factor2": "1.33"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.75", "g": "0.25", "b": "0.5", "factor1": "1.75", "factor2": "0.75"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.15", "g": "0.85", "b": "0.35", "factor1": "0.85", "factor2": "1.85"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.05", "g": "0.95", "b": "0.15", "factor1": "0.05", "factor2": "0.95"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.55", "g": "0.45", "b": "0.65", "factor1": "1.55", "factor2": "2.55"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.65", "g": "0.35", "b": "0.95", "factor1": "0.65", "factor2": "1.95"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.85", "g": "0.15", "b": "0.55", "factor1": "1.85", "factor2": "0.55"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.95", "g": "0.05", "b": "0.75", "factor1": "0.95", "factor2": "1.75"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.42", "g": "0.58", "b": "0.24", "factor1": "1.42", "factor2": "0.58"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.78", "g": "0.22", "b": "0.88", "factor1": "0.78", "factor2": "2.22"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.68", "g": "0.32", "b": "0.48", "factor1": "1.68", "factor2": "1.32"}
+{"file_name": "sample_lib_a/tests/test18.cpp", "r": "0.98", "g": "0.02", "b": "0.28", "factor1": "0.98", "factor2": "1.98"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.5", "g": "0.6", "b": "0.7", "factor": "0.8"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.0", "g": "0.0", "b": "0.0", "factor": "1.0"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "1.0", "g": "1.0", "b": "1.0", "factor": "1.0"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.0", "g": "0.0", "b": "0.0", "factor": "0.0"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "1.0", "g": "1.0", "b": "1.0", "factor": "0.5"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.3", "g": "0.4", "b": "0.5", "factor": "0.5"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.3", "g": "0.4", "b": "0.5", "factor": "1.5"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.3", "g": "0.4", "b": "0.5", "factor": "2.0"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.1", "g": "0.2", "b": "0.3", "factor": "0.1"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.9", "g": "0.8", "b": "0.7", "factor": "0.9"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.25", "g": "0.75", "b": "0.5", "factor": "0.25"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.33", "g": "0.66", "b": "0.99", "factor": "0.33"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.123", "g": "0.456", "b": "0.789", "factor": "0.456"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.999", "g": "0.001", "b": "0.5", "factor": "0.999"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "1", "g": "0", "b": "0", "factor": "1"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0", "g": "1", "b": "0", "factor": "1"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0", "g": "0", "b": "1", "factor": "1"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "1", "g": "1", "b": "0", "factor": "0.5"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "1", "g": "0", "b": "1", "factor": "0.75"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0", "g": "1", "b": "1", "factor": "0.25"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.0001", "g": "0.0001", "b": "0.0001", "factor": "0.0001"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.9999", "g": "0.9999", "b": "0.9999", "factor": "0.9999"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.5", "g": "0.5", "b": "0.5", "factor": "0.0"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.5", "g": "0.5", "b": "0.5", "factor": "2.0"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.5", "g": "0.5", "b": "0.5", "factor": "3.0"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.5", "g": "0.5", "b": "0.5", "factor": "10.0"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.111", "g": "0.222", "b": "0.333", "factor": "0.444"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.555", "g": "0.666", "b": "0.777", "factor": "0.888"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.2", "g": "0.4", "b": "0.6", "factor": "1.2"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.15", "g": "0.25", "b": "0.35", "factor": "1.5"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.7", "g": "0.3", "b": "0.9", "factor": "0.6"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.8", "g": "0.2", "b": "0.6", "factor": "1.8"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.01", "g": "0.99", "b": "0.01", "factor": "0.01"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.99", "g": "0.01", "b": "0.99", "factor": "0.99"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.125", "g": "0.375", "b": "0.625", "factor": "0.875"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.333333", "g": "0.666666", "b": "0.999999", "factor": "0.555555"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.85", "g": "0.15", "b": "0.5", "factor": "0.85"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.6", "g": "0.7", "b": "0.8", "factor": "1.1"}
+{"file_name": "sample_lib_a/tests/test8.cpp", "r": "0.4", "g": "0.5", "b": "0.6", "factor": "1.3"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.5", "g": "0.6", "b": "0.7", "factor": "1.5"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.0", "g": "0.0", "b": "0.0", "factor": "1.0"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "1.0", "g": "1.0", "b": "1.0", "factor": "1.0"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.0", "g": "0.0", "b": "0.0", "factor": "2.0"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "1.0", "g": "1.0", "b": "1.0", "factor": "0.5"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.3", "g": "0.4", "b": "0.5", "factor": "0.0"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.8", "g": "0.2", "b": "0.9", "factor": "0.5"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.1", "g": "0.9", "b": "0.1", "factor": "2.0"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "1.0", "g": "0.0", "b": "0.0", "factor": "1.5"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.0", "g": "1.0", "b": "0.0", "factor": "1.5"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.0", "g": "0.0", "b": "1.0", "factor": "1.5"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.5", "g": "0.5", "b": "0.5", "factor": "1.0"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.25", "g": "0.75", "b": "0.25", "factor": "1.2"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.99", "g": "0.01", "b": "0.5", "factor": "0.8"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.333", "g": "0.666", "b": "0.999", "factor": "1.7"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.15", "g": "0.25", "b": "0.35", "factor": "3.0"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.95", "g": "0.85", "b": "0.75", "factor": "0.3"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.0", "g": "0.5", "b": "1.0", "factor": "1.1"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "1.0", "g": "0.5", "b": "0.0", "factor": "1.9"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.123", "g": "0.456", "b": "0.789", "factor": "1.45"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.555", "g": "0.666", "b": "0.777", "factor": "0.9"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.2", "g": "0.8", "b": "0.6", "factor": "2.5"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.7", "g": "0.3", "b": "0.4", "factor": "1.3"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.1", "g": "0.1", "b": "0.1", "factor": "5.0"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.9", "g": "0.9", "b": "0.9", "factor": "0.1"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.001", "g": "0.002", "b": "0.003", "factor": "10.0"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.999", "g": "0.998", "b": "0.997", "factor": "0.01"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.125", "g": "0.375", "b": "0.625", "factor": "1.25"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.875", "g": "0.625", "b": "0.375", "factor": "1.75"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.45", "g": "0.55", "b": "0.65", "factor": "1.6"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.5", "g": "0.0", "b": "0.5", "factor": "1.8"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.3", "g": "0.7", "b": "0.3", "factor": "2.2"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.6", "g": "0.4", "b": "0.8", "factor": "0.6"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.22", "g": "0.44", "b": "0.66", "factor": "1.15"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.88", "g": "0.66", "b": "0.44", "factor": "0.85"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.17", "g": "0.83", "b": "0.17", "factor": "4.0"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.68", "g": "0.32", "b": "0.85", "factor": "1.05"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.42", "g": "0.58", "b": "0.73", "factor": "1.95"}
+{"file_name": "sample_lib_a/tests/test9.cpp", "r": "0.34", "g": "0.67", "b": "0.91", "factor": "2.8"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "0", "saturation": "0.0", "value": "0.0"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "0", "saturation": "1.0", "value": "1.0"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "60", "saturation": "0.5", "value": "0.5"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "120", "saturation": "0.8", "value": "0.8"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "180", "saturation": "0.3", "value": "0.7"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "240", "saturation": "0.7", "value": "0.9"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "300", "saturation": "0.6", "value": "0.6"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "360", "saturation": "1.0", "value": "1.0"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "30", "saturation": "0.25", "value": "0.95"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "90", "saturation": "0.75", "value": "0.45"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "150", "saturation": "0.15", "value": "0.85"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "210", "saturation": "0.95", "value": "0.35"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "270", "saturation": "0.45", "value": "0.55"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "330", "saturation": "0.85", "value": "0.65"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "45", "saturation": "0.33", "value": "0.77"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "135", "saturation": "0.67", "value": "0.43"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "225", "saturation": "0.22", "value": "0.88"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "315", "saturation": "0.88", "value": "0.22"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "1", "saturation": "0.01", "value": "0.01"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "359", "saturation": "0.99", "value": "0.99"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "0.5", "saturation": "0.5", "value": "0.5"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "180.5", "saturation": "0.123", "value": "0.456"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "90.25", "saturation": "0.876", "value": "0.234"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "270.75", "saturation": "0.345", "value": "0.789"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "50", "saturation": "0", "value": "0"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "100", "saturation": "0", "value": "1"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "200", "saturation": "1", "value": "0"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "250", "saturation": "1", "value": "1"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "400", "saturation": "1.5", "value": "1.2"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "-10", "saturation": "-0.5", "value": "-0.3"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "360.5", "saturation": "0.5", "value": "0.5"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "720", "saturation": "0.8", "value": "0.8"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "100", "saturation": "0.5"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "200", "saturation": "0.7"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "300", "saturation": "0.9"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "0.1", "saturation": "0.001", "value": "0.001"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "359.9", "saturation": "0.999", "value": "0.999"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "123.456", "saturation": "0.789", "value": "0.321"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "234.567", "saturation": "0.654", "value": "0.987"}
+{"file_name": "sample_lib_a/tests/test4.cpp", "hue": "1", "saturation": "1", "value": "1"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.0", "g": "0.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "1.0", "g": "1.0", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.5", "g": "0.5", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.0", "g": "0.0", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.0", "g": "1.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "1.0", "g": "0.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.1", "g": "0.2", "b": "0.3"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.25", "g": "0.75", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.123", "g": "0.456", "b": "0.789"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.999", "g": "0.001", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.333", "g": "0.333", "b": "0.333"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.0", "g": "1.0", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "1.0", "g": "0.0", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "1.0", "g": "1.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.2", "g": "0.4", "b": "0.6"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.8", "g": "0.6", "b": "0.4"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.0", "g": "0.5", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "1.0", "g": "0.5", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.15", "g": "0.85", "b": "0.35"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.75", "g": "0.25", "b": "0.95"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.05", "g": "0.95", "b": "0.05"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.95", "g": "0.05", "b": "0.95"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.001", "g": "0.001", "b": "0.001"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.999", "g": "0.999", "b": "0.999"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.111", "g": "0.222", "b": "0.333"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.444", "g": "0.555", "b": "0.666"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.777", "g": "0.888", "b": "0.999"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.3", "g": "0.7", "b": "0.2"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.9", "g": "0.1", "b": "0.8"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.45", "g": "0.55", "b": "0.65"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.125", "g": "0.375", "b": "0.625"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.875", "g": "0.125", "b": "0.375"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.0", "g": "0.0", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.5", "g": "0.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.0", "g": "0.5", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.0625", "g": "0.1875", "b": "0.3125"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.9375", "g": "0.8125", "b": "0.6875"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.27", "g": "0.63", "b": "0.54"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.81", "g": "0.18", "b": "0.36"}
+{"file_name": "sample_lib_a/tests/test5.cpp", "r": "0.42", "g": "0.58", "b": "0.84"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.0", "g1": "0.0", "b1": "0.0", "r2": "1.0", "g2": "1.0", "b2": "1.0", "ratio": "0.5"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "1.0", "g1": "0.0", "b1": "0.0", "r2": "0.0", "g2": "1.0", "b2": "0.0", "ratio": "0.5"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.0", "g1": "0.0", "b1": "1.0", "r2": "1.0", "g2": "1.0", "b2": "0.0", "ratio": "0.5"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.5", "g1": "0.5", "b1": "0.5", "r2": "0.5", "g2": "0.5", "b2": "0.5", "ratio": "0.5"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.3", "g1": "0.4", "b1": "0.5", "r2": "0.7", "g2": "0.2", "b2": "0.1", "ratio": "0.3"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "1.0", "g1": "1.0", "b1": "1.0", "r2": "0.0", "g2": "0.0", "b2": "0.0", "ratio": "0.0"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "1.0", "g1": "1.0", "b1": "1.0", "r2": "0.0", "g2": "0.0", "b2": "0.0", "ratio": "1.0"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.2", "g1": "0.3", "b1": "0.4", "r2": "0.6", "g2": "0.7", "b2": "0.8", "ratio": "0.0"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.2", "g1": "0.3", "b1": "0.4", "r2": "0.6", "g2": "0.7", "b2": "0.8", "ratio": "1.0"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.125", "g1": "0.25", "b1": "0.375", "r2": "0.625", "g2": "0.75", "b2": "0.875", "ratio": "0.25"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.1", "g1": "0.2", "b1": "0.3", "r2": "0.4", "g2": "0.5", "b2": "0.6", "ratio": "0.75"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.9", "g1": "0.1", "b1": "0.5", "r2": "0.3", "g2": "0.8", "b2": "0.2", "ratio": "0.33"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.66", "g1": "0.77", "b1": "0.88", "r2": "0.11", "g2": "0.22", "b2": "0.33", "ratio": "0.66"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.0", "g1": "1.0", "b1": "0.5", "r2": "0.5", "g2": "0.0", "b2": "1.0", "ratio": "0.2"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.15", "g1": "0.25", "b1": "0.35", "r2": "0.85", "g2": "0.75", "b2": "0.65", "ratio": "0.85"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "1.0", "g1": "0.5", "b1": "0.0", "r2": "0.0", "g2": "0.5", "b2": "1.0", "ratio": "0.4"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.333", "g1": "0.333", "b1": "0.333", "r2": "0.666", "g2": "0.666", "b2": "0.666", "ratio": "0.5"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.123", "g1": "0.456", "b1": "0.789", "r2": "0.987", "g2": "0.654", "b2": "0.321", "ratio": "0.111"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.0", "g1": "0.0", "b1": "0.0", "r2": "0.0", "g2": "0.0", "b2": "0.0", "ratio": "0.5"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "1.0", "g1": "1.0", "b1": "1.0", "r2": "1.0", "g2": "1.0", "b2": "1.0", "ratio": "0.5"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.5", "g1": "0.0", "b1": "0.5", "r2": "0.5", "g2": "1.0", "b2": "0.5", "ratio": "0.3"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.25", "g1": "0.75", "b1": "0.25", "r2": "0.75", "g2": "0.25", "b2": "0.75", "ratio": "0.6"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.999", "g1": "0.001", "b1": "0.5", "r2": "0.001", "g2": "0.999", "b2": "0.5", "ratio": "0.999"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.05", "g1": "0.1", "b1": "0.15", "r2": "0.95", "g2": "0.9", "b2": "0.85", "ratio": "0.05"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.2", "g1": "0.4", "b1": "0.6", "r2": "0.4", "g2": "0.6", "b2": "0.8", "ratio": "0.8"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.7", "g1": "0.5", "b1": "0.3", "r2": "0.3", "g2": "0.5", "b2": "0.7", "ratio": "0.7"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.0", "g1": "0.5", "b1": "1.0", "r2": "1.0", "g2": "0.5", "b2": "0.0", "ratio": "0.25"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.44", "g1": "0.55", "b1": "0.66", "r2": "0.77", "g2": "0.88", "b2": "0.99", "ratio": "0.44"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.111", "g1": "0.222", "b1": "0.333", "r2": "0.444", "g2": "0.555", "b2": "0.666", "ratio": "0.222"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.888", "g1": "0.777", "b1": "0.666", "r2": "0.555", "g2": "0.444", "b2": "0.333", "ratio": "0.888"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.3", "g1": "0.0", "b1": "0.3", "r2": "0.7", "g2": "1.0", "b2": "0.7", "ratio": "0.15"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.0", "g1": "0.8", "b1": "0.2", "r2": "0.8", "g2": "0.0", "b2": "0.8", "ratio": "0.35"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.6", "g1": "0.2", "b1": "0.8", "r2": "0.4", "g2": "0.8", "b2": "0.2", "ratio": "0.65"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.55", "g1": "0.45", "b1": "0.55", "r2": "0.45", "g2": "0.55", "b2": "0.45", "ratio": "0.55"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.03", "g1": "0.06", "b1": "0.09", "r2": "0.12", "g2": "0.15", "b2": "0.18", "ratio": "0.91"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.97", "g1": "0.94", "b1": "0.91", "r2": "0.88", "g2": "0.85", "b2": "0.82", "ratio": "0.09"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.14", "g1": "0.28", "b1": "0.42", "r2": "0.56", "g2": "0.7", "b2": "0.84", "ratio": "0.42"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.83", "g1": "0.67", "b1": "0.51", "r2": "0.35", "g2": "0.19", "b2": "0.03", "ratio": "0.73"}
+{"file_name": "sample_lib_a/tests/test7.cpp", "r1": "0.5", "g1": "0.5", "b1": "0.0", "r2": "0.0", "g2": "0.0", "b2": "0.5", "ratio": "0.5"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0", "magenta": "0", "yellow": "0", "black": "0"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "1", "magenta": "1", "yellow": "1", "black": "1"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.5", "magenta": "0.5", "yellow": "0.5", "black": "0.5"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.1", "magenta": "0.2", "yellow": "0.3", "black": "0.4"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.25", "magenta": "0.75", "yellow": "0.5", "black": "0.1"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.333", "magenta": "0.666", "yellow": "0.999", "black": "0.001"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0", "magenta": "1", "yellow": "0", "black": "1"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "1", "magenta": "0", "yellow": "1", "black": "0"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.123", "magenta": "0.456", "yellow": "0.789", "black": "0.012"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.999", "magenta": "0.001", "yellow": "0.5", "black": "0.5"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.2", "magenta": "0.8", "yellow": "0.4", "black": "0.6"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.15", "magenta": "0.25", "yellow": "0.35", "black": "0.45"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.01", "magenta": "0.02", "yellow": "0.03", "black": "0.04"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.99", "magenta": "0.98", "yellow": "0.97", "black": "0.96"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.111", "magenta": "0.222", "yellow": "0.333", "black": "0.444"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.777", "magenta": "0.888", "yellow": "0.666", "black": "0.555"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0", "magenta": "0.5", "yellow": "1", "black": "0.5"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "1", "magenta": "0.5", "yellow": "0", "black": "0.25"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.3", "magenta": "0.7", "yellow": "0.2", "black": "0.8"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.6", "magenta": "0.4", "yellow": "0.6", "black": "0.4"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.125", "magenta": "0.375", "yellow": "0.625", "black": "0.875"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.875", "magenta": "0.625", "yellow": "0.375", "black": "0.125"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.05", "magenta": "0.95", "yellow": "0.05", "black": "0.95"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.95", "magenta": "0.05", "yellow": "0.95", "black": "0.05"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.12345", "magenta": "0.67890", "yellow": "0.23456", "black": "0.78901"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.0101", "magenta": "0.1010", "yellow": "0.0011", "black": "0.1111"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.5555", "magenta": "0.4444", "yellow": "0.3333", "black": "0.2222"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.9999", "magenta": "0.0001", "yellow": "0.9999", "black": "0.0001"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.0001", "magenta": "0.9999", "yellow": "0.0001", "black": "0.9999"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.07", "magenta": "0.14", "yellow": "0.21", "black": "0.28"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.35", "magenta": "0.42", "yellow": "0.49", "black": "0.56"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.63", "magenta": "0.70", "yellow": "0.77", "black": "0.84"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.91", "magenta": "0.92", "yellow": "0.93", "black": "0.94"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.18", "magenta": "0.27", "yellow": "0.36", "black": "0.54"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.45", "magenta": "0.54", "yellow": "0.63", "black": "0.72"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.81", "magenta": "0.90", "yellow": "0.09", "black": "0.18"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.17", "magenta": "0.34", "yellow": "0.51", "black": "0.68"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.85", "magenta": "0.15", "yellow": "0.85", "black": "0.15"}
+{"file_name": "sample_lib_a/tests/test6.cpp", "cyan": "0.29", "magenta": "0.71", "yellow": "0.43", "black": "0.57"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "120.0", "s": "0.5", "l": "0.5"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "0.0", "s": "0.0", "l": "0.0"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "360.0", "s": "1.0", "l": "1.0"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "180.0", "s": "0.5"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "0", "s": "0"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "240.0", "s": "0.75", "l": "0.25"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "60.0", "s": "1.0", "l": "0.5"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "300.0", "s": "0.5", "l": "0.75"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "90.0", "s": "0.25"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "270.0", "s": "0.9", "l": "0.1"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "0.0", "s": "0.0", "l": "1.0"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "180.0", "s": "1.0"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "45.5", "s": "0.555", "l": "0.666"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "359.9", "s": "0.999", "l": "0.001"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "1.0", "s": "0.01"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "200.0", "s": "0.3", "l": "0.7"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "150.5", "s": "0.85", "l": "0.45"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "30.0", "s": "0.2"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "210.0", "s": "0.6", "l": "0.4"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "330.0", "s": "0.8", "l": "0.6"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "15.25", "s": "0.123", "l": "0.456"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "100.0", "s": "0.0", "l": "0.5"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "280.0", "s": "1.0"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "0.5", "s": "0.005", "l": "0.995"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "355.0", "s": "0.15", "l": "0.85"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "175.0", "s": "0.65"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "225.0", "s": "0.45", "l": "0.55"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "315.0", "s": "0.35", "l": "0.65"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "5.0", "s": "0.95"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "185.0", "s": "0.05", "l": "0.95"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "250.5", "s": "0.777", "l": "0.333"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "130.0", "s": "0.4", "l": "0.8"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "310.0", "s": "0.7"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "70.0", "s": "0.33", "l": "0.67"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "190.0", "s": "0.88", "l": "0.22"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "350.0", "s": "0.12"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "110.0", "s": "0.58", "l": "0.42"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "260.0", "s": "0.92", "l": "0.08"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "40.0", "s": "0.28"}
+{"file_name": "sample_lib_a/tests/test2.cpp", "h": "320.0", "s": "0.62", "l": "0.38"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.0", "g": "0.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "1.0", "g": "1.0", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.5", "g": "0.5", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.2", "g": "0.8", "b": "0.4"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "1.0", "g": "0.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.0", "g": "1.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.0", "g": "0.0", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "1.0", "g": "1.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "1.0", "g": "0.0", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.0", "g": "1.0", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.123", "g": "0.456", "b": "0.789"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.001", "g": "0.002", "b": "0.003"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.999", "g": "0.998", "b": "0.997"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.333", "g": "0.333", "b": "0.333"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.666", "g": "0.666", "b": "0.666"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.125", "g": "0.375", "b": "0.625"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.875", "g": "0.125", "b": "0.375"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.1", "g": "0.2"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.9", "g": "0.8"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.15", "g": "0.85", "b": "0.35"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "-0.1", "g": "0.5", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.5", "g": "-0.1", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.5", "g": "0.5", "b": "-0.1"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "1.5", "g": "0.5", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.5", "g": "1.5", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.5", "g": "0.5", "b": "1.5"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "255", "g": "128", "b": "64"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0", "g": "255", "b": "128"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.000001", "g": "0.000002", "b": "0.000003"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.000001", "g": "0.000001"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.999999", "g": "0.999998", "b": "0.999997"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.7", "g": "0.3", "b": "0.9"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.25", "g": "0.75", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.11", "g": "0.22", "b": "0.33"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.44", "g": "0.55", "b": "0.66"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.77", "g": "0.88", "b": "0.99"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.01", "g": "0.99", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.99", "g": "0.01", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.5", "g": "0.01", "b": "0.99"}
+{"file_name": "sample_lib_a/tests/test3.cpp", "r": "0.5", "g": "0.99", "b": "0.01"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.0", "g_value": "0.0"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "1.0", "g_value": "1.0"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.5", "g_value": "0.5"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.0", "g_value": "0.0", "b_value": "0.0"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "1.0", "g_value": "1.0", "b_value": "1.0"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.0", "g_value": "0.0", "b_value": "1.0"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "1.0", "g_value": "0.0", "b_value": "0.0"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.0", "g_value": "1.0", "b_value": "0.0"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.5", "g_value": "0.3", "b_value": "0.7"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.1", "g_value": "0.2", "b_value": "0.3"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.25", "g_value": "0.75", "b_value": "0.5"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.33", "g_value": "0.66", "b_value": "0.99"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.123", "g_value": "0.456", "b_value": "0.789"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.001", "g_value": "0.002", "b_value": "0.003"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.999", "g_value": "0.998", "b_value": "0.997"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "1.5", "g_value": "0.5", "b_value": "0.5"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.5", "g_value": "2.0", "b_value": "0.5"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.5", "g_value": "0.5", "b_value": "3.0"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "-0.5", "g_value": "0.5", "b_value": "0.5"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.5", "g_value": "-0.5", "b_value": "0.5"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.5", "g_value": "0.5", "b_value": "-0.5"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.0", "g_value": "0.5", "b_value": "1.0"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "1.0", "g_value": "0.5", "b_value": "0.0"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.125", "g_value": "0.375", "b_value": "0.625"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.875", "g_value": "0.625", "b_value": "0.375"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.1", "g_value": "0.1", "b_value": "0.9"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.9", "g_value": "0.9", "b_value": "0.1"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.15", "g_value": "0.85", "b_value": "0.35"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.75", "g_value": "0.25", "b_value": "0.85"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.333333", "g_value": "0.333333", "b_value": "0.333333"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.666666", "g_value": "0.666666", "b_value": "0.666666"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "100.0", "g_value": "0.5", "b_value": "0.5"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.5", "g_value": "100.0", "b_value": "0.5"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.5", "g_value": "0.5", "b_value": "100.0"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.0001", "g_value": "0.0001", "b_value": "0.0001"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.9999", "g_value": "0.9999", "b_value": "0.9999"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.0078", "g_value": "0.1529", "b_value": "0.9019"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.4117", "g_value": "0.6862", "b_value": "0.1490"}
+{"file_name": "sample_lib_a/tests/test1.cpp", "r_value": "0.2941", "g_value": "0.7686", "b_value": "0.8196"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.5", "u": "0.2", "v": "0.3"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.0", "u": "0.0", "v": "0.0"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "1.0", "u": "0.0", "v": "0.0"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.0", "u": "0.5", "v": "0.0"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.0", "u": "0.0", "v": "0.5"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "1.0", "u": "0.5", "v": "0.5"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.5", "u": "-0.5", "v": "-0.5"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.25", "u": "0.25", "v": "0.25"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.75", "u": "-0.25", "v": "0.25"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.123", "u": "0.456", "v": "0.789"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.999", "u": "0.001", "v": "0.001"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.001", "u": "0.999", "v": "0.999"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.292", "u": "0.147", "v": "0.439"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.362", "u": "-0.173", "v": "0.514"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.587", "u": "0.456", "v": "-0.231"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.333", "u": "0.333", "v": "0.333"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.666", "u": "0.222", "v": "0.444"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.111", "u": "0.222", "v": "0.333"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.999999", "u": "0.999999", "v": "0.999999"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.000001", "u": "0.000001", "v": "0.000001"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.5", "u": "0.0", "v": "0.5"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.5", "u": "0.5", "v": "0.0"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "1.0", "u": "1.0", "v": "1.0"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.0", "u": "1.0", "v": "0.5"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.5", "u": "-0.5", "v": "0.0"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.5", "u": "0.0", "v": "-0.5"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "-0.1", "u": "0.2", "v": "0.3"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "1.1", "u": "0.2", "v": "0.3"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.5", "u": "-1.0", "v": "0.3"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.5", "u": "0.2", "v": "2.0"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.5", "u": "-0.123", "v": "-0.456"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.718", "u": "0.382", "v": "-0.061"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.212", "u": "0.554", "v": "0.337"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.847", "u": "-0.283", "v": "0.192"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.654", "u": "0.119", "v": "-0.477"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.923", "u": "0.077", "v": "0.231"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.182", "u": "0.818", "v": "0.636"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.555", "u": "0.444", "v": "0.333"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "0.0", "u": "0.0", "v": "0.5"}
+{"file_name": "sample_lib_a/tests/test17.cpp", "y": "1.0", "u": "0.5", "v": "0.0"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.0", "g": "0.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "1.0", "g": "1.0", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.5", "g": "0.5", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.6", "g": "0.3", "b": "0.9"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "1.0", "g": "0.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.0", "g": "1.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.0", "g": "0.0", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.123", "g": "0.456", "b": "0.789"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.999", "g": "0.999", "b": "0.999"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.001", "g": "0.001", "b": "0.001"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.255", "g": "0.255", "b": "0.255"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.75", "g": "0.25", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "1.5", "g": "0.5", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.5", "g": "2.0", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.5", "g": "0.5", "b": "3.0"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "-0.5", "g": "0.5", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.5", "g": "-1.0", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.5", "g": "0.5", "b": "-2.0"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.333", "g": "0.333", "b": "0.333"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.666", "g": "0.666", "b": "0.666"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.125", "g": "0.25", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.875", "g": "0.75", "b": "0.625"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.1", "g": "0.2", "b": "0.3"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.9", "g": "0.8", "b": "0.7"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.15", "g": "0.85", "b": "0.45"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.987", "g": "0.654", "b": "0.321"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.111", "g": "0.222", "b": "0.333"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.444", "g": "0.555", "b": "0.666"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.777", "g": "0.888", "b": "0.999"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "10.0", "g": "10.0", "b": "10.0"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "100.0", "g": "100.0", "b": "100.0"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.0001", "g": "0.0001", "b": "0.0001"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.00001", "g": "0.00001", "b": "0.00001"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.9999", "g": "0.9999", "b": "0.9999"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "2.5", "g": "1.5", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "-1.0", "g": "-1.0", "b": "-1.0"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.0", "g": "1.0", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "1.0", "g": "0.0", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "1.0", "g": "1.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test16.cpp", "r": "0.50", "g": "0.50", "b": "0.50"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.1", "g1": "0.2", "b1": "0.3", "r2": "0.9", "g2": "0.8", "b2": "0.7", "steps": "5"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.0", "g1": "0.0", "b1": "0.0", "r2": "1.0", "g2": "1.0", "b2": "1.0", "steps": "10"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "1.0", "g1": "0.0", "b1": "0.0", "r2": "0.0", "g2": "1.0", "b2": "0.0", "steps": "7"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.0", "g1": "0.0", "b1": "1.0", "r2": "1.0", "g2": "1.0", "b2": "0.0", "steps": "8"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.5", "g1": "0.5", "b1": "0.5", "r2": "0.5", "g2": "0.5", "b2": "0.5", "steps": "3"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.0", "g1": "1.0", "b1": "1.0", "r2": "1.0", "g2": "0.0", "b2": "1.0", "steps": "12"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.25", "g1": "0.75", "b1": "0.5", "r2": "0.75", "g2": "0.25", "b2": "0.5", "steps": "6"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.123", "g1": "0.456", "b1": "0.789", "r2": "0.987", "g2": "0.654", "b2": "0.321", "steps": "15"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.0", "g1": "0.0", "b1": "0.0", "r2": "0.0", "g2": "0.0", "b2": "0.0", "steps": "1"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "1.0", "g1": "1.0", "b1": "1.0", "r2": "1.0", "g2": "1.0", "b2": "1.0", "steps": "2"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.001", "g1": "0.001", "b1": "0.001", "r2": "0.999", "g2": "0.999", "b2": "0.999", "steps": "50"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.3", "g1": "0.3", "b1": "0.3", "r2": "0.7", "g2": "0.7", "b2": "0.7", "steps": "20"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.9", "g1": "0.1", "b1": "0.5", "r2": "0.1", "g2": "0.9", "b2": "0.5", "steps": "9"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.15", "g1": "0.85", "b1": "0.35", "r2": "0.85", "g2": "0.15", "b2": "0.65", "steps": "11"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.333", "g1": "0.666", "b1": "0.999", "r2": "0.111", "g2": "0.222", "b2": "0.333", "steps": "25"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.0", "g1": "0.5", "b1": "1.0", "r2": "1.0", "g2": "0.5", "b2": "0.0", "steps": "14"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.99", "g1": "0.99", "b1": "0.01", "r2": "0.01", "g2": "0.01", "b2": "0.99", "steps": "18"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.2", "g1": "0.4", "b1": "0.6", "r2": "0.6", "g2": "0.4", "b2": "0.2", "steps": "30"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.111", "g1": "0.222", "b1": "0.333", "r2": "0.444", "g2": "0.555", "b2": "0.666", "steps": "4"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.777", "g1": "0.888", "b1": "0.999", "r2": "0.666", "g2": "0.555", "b2": "0.444", "steps": "16"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.0", "g1": "1.0", "b1": "0.5", "r2": "1.0", "g2": "0.0", "b2": "0.5", "steps": "13"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.5", "g1": "0.0", "b1": "1.0", "r2": "0.5", "g2": "1.0", "b2": "0.0", "steps": "17"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.123456", "g1": "0.234567", "b1": "0.345678", "r2": "0.456789", "g2": "0.567890", "b2": "0.678901", "steps": "19"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.0", "g1": "0.0", "b1": "0.5", "r2": "1.0", "g2": "1.0", "b2": "0.5", "steps": "22"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "1.0", "g1": "0.5", "b1": "0.0", "r2": "0.0", "g2": "0.5", "b2": "1.0", "steps": "21"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.3", "g1": "0.6", "b1": "0.9", "r2": "0.9", "g2": "0.6", "b2": "0.3", "steps": "23"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.05", "g1": "0.15", "b1": "0.25", "r2": "0.95", "g2": "0.85", "b2": "0.75", "steps": "35"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.0", "g1": "0.0", "b1": "1.0", "r2": "1.0", "g2": "0.0", "b2": "0.0", "steps": "5"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "1.0", "g1": "1.0", "b1": "0.0", "r2": "0.0", "g2": "0.0", "b2": "1.0", "steps": "6"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.75", "g1": "0.25", "b1": "0.75", "r2": "0.25", "g2": "0.75", "b2": "0.25", "steps": "8"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.4", "g1": "0.4", "b1": "0.8", "r2": "0.8", "g2": "0.8", "b2": "0.4", "steps": "24"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.6", "g1": "0.2", "b1": "0.4", "r2": "0.4", "g2": "0.8", "b2": "0.6", "steps": "26"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.01", "g1": "0.02", "b1": "0.03", "r2": "0.97", "g2": "0.98", "b2": "0.99", "steps": "40"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.55", "g1": "0.66", "b1": "0.77", "r2": "0.88", "g2": "0.77", "b2": "0.66", "steps": "27"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.0", "g1": "0.75", "b1": "0.25", "r2": "0.75", "g2": "0.0", "b2": "0.25", "steps": "28"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.2", "g1": "0.8", "b1": "0.4", "r2": "0.8", "g2": "0.2", "b2": "0.6", "steps": "29"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.44", "g1": "0.55", "b1": "0.66", "r2": "0.77", "g2": "0.88", "b2": "0.99", "steps": "32"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.88", "g1": "0.77", "b1": "0.66", "r2": "0.55", "g2": "0.44", "b2": "0.33", "steps": "33"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.0", "g1": "0.25", "b1": "0.75", "r2": "0.75", "g2": "0.25", "b2": "0.0", "steps": "34"}
+{"file_name": "sample_lib_a/tests/test14.cpp", "r1": "0.33", "g1": "0.44", "b1": "0.55", "r2": "0.66", "g2": "0.77", "b2": "0.88", "steps": "36"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.0", "g1": "0.0", "b1": "0.0", "r2": "0.0", "g2": "0.0", "b2": "0.0"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "1.0", "g1": "1.0", "b1": "1.0", "r2": "1.0", "g2": "1.0", "b2": "1.0"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.5", "g1": "0.5", "b1": "0.5", "r2": "0.5", "g2": "0.5", "b2": "0.5"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "1.0", "g1": "0.0", "b1": "0.0", "r2": "0.0", "g2": "1.0", "b2": "0.0"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.0", "g1": "0.0", "b1": "1.0", "r2": "1.0", "g2": "0.0", "b2": "0.0"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "1.0", "g1": "1.0", "b1": "0.0", "r2": "0.0", "g2": "0.0", "b2": "1.0"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.1", "g1": "0.2", "b1": "0.3", "r2": "0.4", "g2": "0.5", "b2": "0.6"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.25", "g1": "0.75", "b1": "0.5", "r2": "0.75", "g2": "0.25", "b2": "0.5"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.0", "g1": "1.0", "b1": "0.0", "r2": "0.0", "g2": "0.0", "b2": "1.0"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.999", "g1": "0.999", "b1": "0.999", "r2": "0.001", "g2": "0.001", "b2": "0.001"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.2", "g1": "0.3", "b1": "0.4", "r2": "0.7", "g2": "0.8", "b2": "0.9"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.0", "g1": "0.0", "b1": "0.0", "r2": "1.0", "g2": "1.0", "b2": "1.0"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.123", "g1": "0.456", "b1": "0.789", "r2": "0.321", "g2": "0.654", "b2": "0.987"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.0", "g1": "0.5", "b1": "1.0", "r2": "1.0", "g2": "0.5", "b2": "0.0"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.33", "g1": "0.33", "b1": "0.33", "r2": "0.66", "g2": "0.66", "b2": "0.66"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.001", "g1": "0.001", "b1": "0.001", "r2": "0.999", "g2": "0.999", "b2": "0.999"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.5", "g1": "0.0", "b1": "0.5", "r2": "0.5", "g2": "1.0", "b2": "0.5"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "1.0", "g1": "0.5", "b1": "0.0", "r2": "0.0", "g2": "0.5", "b2": "1.0"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.3", "g1": "0.3", "b1": "0.3", "r2": "0.7", "g2": "0.7", "b2": "0.7"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.0", "g1": "0.0", "b1": "0.5", "r2": "0.5", "g2": "0.5", "b2": "1.0"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.8", "g1": "0.6", "b1": "0.4", "r2": "0.2", "g2": "0.4", "b2": "0.6"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.15", "g1": "0.25", "b1": "0.35", "r2": "0.85", "g2": "0.75", "b2": "0.65"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.0", "g1": "0.0", "b1": "0.0", "r2": "0.5", "g2": "0.5", "b2": "0.5"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.5", "g1": "0.5", "b1": "0.5", "r2": "1.0", "g2": "1.0", "b2": "1.0"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.11", "g1": "0.22", "b1": "0.33", "r2": "0.44", "g2": "0.55", "b2": "0.66"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.77", "g1": "0.88", "b1": "0.99", "r2": "0.11", "g2": "0.22", "b2": "0.33"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.9", "g1": "0.1", "b1": "0.5", "r2": "0.1", "g2": "0.9", "b2": "0.5"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.4", "g1": "0.6", "b1": "0.2", "r2": "0.6", "g2": "0.4", "b2": "0.8"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.0001", "g1": "0.0001", "b1": "0.0001", "r2": "0.0001", "g2": "0.0001", "b2": "0.0001"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.9999", "g1": "0.9999", "b1": "0.9999", "r2": "0.9999", "g2": "0.9999", "b2": "0.9999"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.987", "g1": "0.654", "b1": "0.321", "r2": "0.123", "g2": "0.456", "b2": "0.789"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.333", "g1": "0.333", "b1": "0.333", "r2": "0.666", "g2": "0.666", "b2": "0.666"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.0", "g1": "0.0", "b1": "0.0", "r2": "0.0", "g2": "1.0", "b2": "0.0"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "1.0", "g1": "1.0", "b1": "1.0", "r2": "0.0", "g2": "0.0", "b2": "0.0"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.1", "g1": "0.9", "b1": "0.1", "r2": "0.9", "g2": "0.1", "b2": "0.9"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.55", "g1": "0.45", "b1": "0.55", "r2": "0.45", "g2": "0.55", "b2": "0.45"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.05", "g1": "0.15", "b1": "0.25", "r2": "0.75", "g2": "0.85", "b2": "0.95"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.2", "g1": "0.8", "b1": "0.2", "r2": "0.8", "g2": "0.2", "b2": "0.8"}
+{"file_name": "sample_lib_a/tests/test15.cpp", "r1": "0.0", "g1": "1.0", "b1": "0.5", "r2": "1.0", "g2": "0.0", "b2": "0.5"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.0", "g": "0.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "1.0", "g": "1.0", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.5", "g": "0.5", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.3", "g": "0.7", "b": "0.2"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "1.0", "g": "0.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.0", "g": "1.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.0", "g": "0.0", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.999", "g": "0.999", "b": "0.999"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.001", "g": "0.001", "b": "0.001"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.123456", "g": "0.654321", "b": "0.987654"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.25", "g": "0.75", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.33", "g": "0.66", "b": "0.99"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "1e-6", "g": "1e-6", "b": "1e-6"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.1", "g": "0.2", "b": "0.3"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.9", "g": "0.8", "b": "0.7"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.15", "g": "0.35", "b": "0.85"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.42", "g": "0.42", "b": "0.42"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.0", "g": "1.0", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "1.0", "g": "0.0", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "1.0", "g": "1.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.5", "g": "0.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.0", "g": "0.5", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.0", "g": "0.0", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.2", "g": "0.4", "b": "0.6"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.6", "g": "0.4", "b": "0.2"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.8", "g": "0.2", "b": "0.4"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.05", "g": "0.95", "b": "0.05"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.95", "g": "0.05", "b": "0.95"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.333", "g": "0.333", "b": "0.333"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.777", "g": "0.888", "b": "0.999"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.111", "g": "0.222", "b": "0.333"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "1.5", "g": "0.5", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.5", "g": "1.5", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.5", "g": "0.5", "b": "1.5"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "-0.1", "g": "0.5", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.5", "g": "-0.1", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.5", "g": "0.5", "b": "-0.1"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "2.0", "g": "2.0", "b": "2.0"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "1e-1", "g": "1e-2", "b": "1e-3"}
+{"file_name": "sample_lib_a/tests/test11.cpp", "r": "0.999999", "g": "0.000001", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.0", "g1": "0.0", "b1": "0.0", "r2": "1.0", "g2": "1.0", "b2": "1.0"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "1.0", "g1": "1.0", "b1": "1.0", "r2": "0.0", "g2": "0.0", "b2": "0.0"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.5", "g1": "0.5", "b1": "0.5", "r2": "0.5", "g2": "0.5", "b2": "0.5"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.2", "g1": "0.3", "b1": "0.4", "r2": "0.8", "g2": "0.1", "b2": "0.9"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "1.0", "g1": "0.0", "b1": "0.0", "r2": "0.0", "g2": "1.0", "b2": "0.0"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.0", "g1": "0.0", "b1": "1.0", "r2": "1.0", "g2": "1.0", "b2": "0.0"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.1", "g1": "0.2", "b1": "0.3", "r2": "0.4", "g2": "0.5", "b2": "0.6"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.9", "g1": "0.8", "b1": "0.7", "r2": "0.6", "g2": "0.5", "b2": "0.4"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.0", "g1": "0.5", "b1": "1.0", "r2": "1.0", "g2": "0.5", "b2": "0.0"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.333", "g1": "0.333", "b1": "0.333", "r2": "0.666", "g2": "0.666", "b2": "0.666"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.25", "g1": "0.25", "b1": "0.25", "r2": "0.75", "g2": "0.75", "b2": "0.75"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.123", "g1": "0.456", "b1": "0.789", "r2": "0.321", "g2": "0.654", "b2": "0.987"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.001", "g1": "0.001", "b1": "0.001", "r2": "0.999", "g2": "0.999", "b2": "0.999"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "1.0", "g1": "0.5", "b1": "0.0", "r2": "0.0", "g2": "0.5", "b2": "1.0"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.15", "g1": "0.25", "b1": "0.35", "r2": "0.85", "g2": "0.75", "b2": "0.65"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.7", "g1": "0.3", "b1": "0.6", "r2": "0.4", "g2": "0.8", "b2": "0.2"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.0", "g1": "1.0", "b1": "0.5", "r2": "0.5", "g2": "0.0", "b2": "1.0"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.8", "g1": "0.8", "b1": "0.2", "r2": "0.2", "g2": "0.2", "b2": "0.8"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.45", "g1": "0.55", "b1": "0.65", "r2": "0.35", "g2": "0.45", "b2": "0.55"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.11", "g1": "0.22", "b1": "0.33", "r2": "0.44", "g2": "0.55", "b2": "0.66"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.99", "g1": "0.88", "b1": "0.77", "r2": "0.66", "g2": "0.55", "b2": "0.44"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.5", "g1": "0.0", "b1": "0.5", "r2": "0.5", "g2": "1.0", "b2": "0.5"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.3", "g1": "0.7", "b1": "0.3", "r2": "0.7", "g2": "0.3", "b2": "0.7"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.125", "g1": "0.375", "b1": "0.625", "r2": "0.875", "g2": "0.625", "b2": "0.375"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.0", "g1": "0.0", "b1": "0.5", "r2": "0.5", "g2": "0.5", "b2": "0.0"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "1.0", "g1": "1.0", "b1": "0.5", "r2": "0.5", "g2": "0.5", "b2": "1.0"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.05", "g1": "0.15", "b1": "0.25", "r2": "0.95", "g2": "0.85", "b2": "0.75"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.6", "g1": "0.4", "b1": "0.2", "r2": "0.8", "g2": "0.6", "b2": "0.4"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.222", "g1": "0.444", "b1": "0.666", "r2": "0.888", "g2": "0.222", "b2": "0.444"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.17", "g1": "0.34", "b1": "0.51", "r2": "0.68", "g2": "0.85", "b2": "0.02"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.0", "g1": "0.3", "b1": "0.6", "r2": "0.9", "g2": "0.6", "b2": "0.3"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.4", "g1": "0.4", "b1": "0.4", "r2": "0.6", "g2": "0.6", "b2": "0.6"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.1", "g1": "0.9", "b1": "0.1", "r2": "0.9", "g2": "0.1", "b2": "0.9"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.555", "g1": "0.555", "b1": "0.555", "r2": "0.444", "g2": "0.444", "b2": "0.444"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.08", "g1": "0.16", "b1": "0.24", "r2": "0.32", "g2": "0.40", "b2": "0.48"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.92", "g1": "0.84", "b1": "0.76", "r2": "0.68", "g2": "0.60", "b2": "0.52"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.03", "g1": "0.06", "b1": "0.09", "r2": "0.12", "g2": "0.15", "b2": "0.18"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.97", "g1": "0.94", "b1": "0.91", "r2": "0.88", "g2": "0.85", "b2": "0.82"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.2", "g1": "0.8", "b1": "0.4", "r2": "0.6", "g2": "0.2", "b2": "0.8"}
+{"file_name": "sample_lib_a/tests/test10.cpp", "r1": "0.3", "g1": "0.3", "b1": "0.9", "r2": "0.9", "g2": "0.9", "b2": "0.3"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.0", "g": "0.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "1.0", "g": "1.0", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "1.0", "g": "0.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.0", "g": "1.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.0", "g": "0.0", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "1.0", "g": "1.0", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.0", "g": "1.0", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "1.0", "g": "0.0", "b": "1.0"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.5", "g": "0.5", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.25", "g": "0.25", "b": "0.25"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.75", "g": "0.75", "b": "0.75"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.001", "g": "0.001", "b": "0.001"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.999", "g": "0.999", "b": "0.999"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.123", "g": "0.456", "b": "0.789"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.4", "g": "0.2", "b": "0.8"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.1", "g": "0.3", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.6", "g": "0.8", "b": "0.4"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.2", "g": "0.7", "b": "0.9"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.9", "g": "0.1", "b": "0.6"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "1.0", "g": "0.5", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.5", "g": "0.0", "b": "0.5"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "1.0", "g": "0.647", "b": "0.0"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.8", "g": "0.4", "b": "0.2"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.2", "g": "0.6", "b": "0.4"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.4", "g": "0.2", "b": "0.6"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.333", "g": "0.333", "b": "0.333"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.666", "g": "0.666", "b": "0.666"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.125", "g": "0.375", "b": "0.625"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.875", "g": "0.625", "b": "0.375"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.01", "g": "0.01", "b": "0.01"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.0001", "g": "0.0001", "b": "0.0001"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.9999", "g": "0.9999", "b": "0.9999"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.7", "g": "0.2", "b": "0.1"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.3", "g": "0.9", "b": "0.8"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.15", "g": "0.85", "b": "0.35"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.95", "g": "0.05", "b": "0.55"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.12345", "g": "0.67890", "b": "0.23456"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.9876", "g": "0.5432", "b": "0.1098"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.111", "g": "0.222", "b": "0.333"}
+{"file_name": "sample_lib_a/tests/test12.cpp", "r": "0.777", "g": "0.888", "b": "0.999"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "0", "s1": "0", "l1": "0", "h2": "360", "s2": "1", "l2": "1"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "180", "s1": "0.5", "l1": "0.5", "h2": "180", "s2": "0.5", "l2": "0.5"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "0", "s1": "0.5", "l1": "0.5", "h2": "180", "s2": "0.5", "l2": "0.5"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "90", "s1": "1", "l1": "0.5", "h2": "270", "s2": "1", "l2": "0.5"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "45", "s1": "0.25", "l1": "0.75", "h2": "225", "s2": "0.25", "l2": "0.75"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "360", "s1": "0.8", "l1": "0.2", "h2": "0", "s2": "0.8", "l2": "0.2"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "30", "s1": "0", "l1": "0.5", "h2": "210", "s2": "0", "l2": "0.5"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "60", "s1": "0.6", "l1": "0", "h2": "240", "s2": "0.6", "l2": "0"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "120", "s1": "0.7", "l1": "1", "h2": "300", "s2": "0.7", "l2": "1"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "15", "s1": "0.1", "l1": "0.9", "h2": "195", "s2": "0.9", "l2": "0.1"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "0.5", "s1": "0.5", "l1": "0.5", "h2": "359.5", "s2": "0.5", "l2": "0.5"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "90", "s1": "0.3", "l1": "0.4", "h2": "90", "s2": "0.7", "l2": "0.6"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "270", "s1": "0.8", "l1": "0.3", "h2": "90", "s2": "0.2", "l2": "0.7"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "180", "s1": "0", "l1": "0", "h2": "180", "s2": "1", "l2": "1"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "10", "s1": "0.95", "l1": "0.05", "h2": "350", "s2": "0.05", "l2": "0.95"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "135", "s1": "0.45", "l1": "0.55", "h2": "315", "s2": "0.55", "l2": "0.45"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "1", "s1": "0.01", "l1": "0.99", "h2": "359", "s2": "0.99", "l2": "0.01"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "100", "s1": "0.33", "l1": "0.67", "h2": "200", "s2": "0.67", "l2": "0.33"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "0", "s1": "1", "l1": "0.5", "h2": "120", "s2": "1", "l2": "0.5"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "240", "s1": "0.88", "l1": "0.12", "h2": "60", "s2": "0.12", "l2": "0.88"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "50.5", "s1": "0.55", "l1": "0.45", "h2": "230.5", "s2": "0.45", "l2": "0.55"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "359", "s1": "0.2", "l1": "0.8", "h2": "1", "s2": "0.8", "l2": "0.2"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "180", "s1": "0.4", "l1": "0.6", "h2": "0", "s2": "0.6", "l2": "0.4"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "75", "s1": "0.15", "l1": "0.85", "h2": "255", "s2": "0.85", "l2": "0.15"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "150", "s1": "0.62", "l1": "0.38", "h2": "330", "s2": "0.38", "l2": "0.62"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "0.1", "s1": "0.999", "l1": "0.001", "h2": "359.9", "s2": "0.001", "l2": "0.999"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "210", "s1": "0.5", "l1": "0.5", "h2": "30", "s2": "0.5", "l2": "0.5"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "300", "s1": "0.72", "l1": "0.28", "h2": "120", "s2": "0.28", "l2": "0.72"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "80", "s1": "0.08", "l1": "0.92", "h2": "260", "s2": "0.92", "l2": "0.08"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "170", "s1": "0.58", "l1": "0.42", "h2": "190", "s2": "0.42", "l2": "0.58"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "360", "s1": "0", "l1": "1", "h2": "0", "s2": "1", "l2": "0"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "22.5", "s1": "0.225", "l1": "0.775", "h2": "202.5", "s2": "0.775", "l2": "0.225"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "110", "s1": "0.68", "l1": "0.32", "h2": "290", "s2": "0.32", "l2": "0.68"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "5", "s1": "0.02", "l1": "0.98", "h2": "355", "s2": "0.98", "l2": "0.02"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "200", "s1": "0.41", "l1": "0.59", "h2": "20", "s2": "0.59", "l2": "0.41"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "140", "s1": "0.83", "l1": "0.17", "h2": "320", "s2": "0.17", "l2": "0.83"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "0.001", "s1": "0.5", "l1": "0.5", "h2": "359.999", "s2": "0.5", "l2": "0.5"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "65", "s1": "0.36", "l1": "0.64", "h2": "245", "s2": "0.64", "l2": "0.36"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "235", "s1": "0.91", "l1": "0.09", "h2": "55", "s2": "0.09", "l2": "0.91"}
+{"file_name": "sample_lib_a/tests/test13.cpp", "h1": "179", "s1": "0.77", "l1": "0.23", "h2": "181", "s2": "0.23", "l2": "0.77"}

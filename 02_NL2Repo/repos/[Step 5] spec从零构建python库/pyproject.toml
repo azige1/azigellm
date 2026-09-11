@@ -1,0 +1,69 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rebuild-spec"
+version = "0.1.0"
+description = "按契约文档从零重建 Python 库：克隆、环境构建、测试与评估的一体化工具链"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ruff>=0.6.4",
+    "pre-commit>=3.8.0",
+    "typer>=0.12.0",
+    "docker>=7.1.0",
+    "fastcore>=1.7.8",
+    "ghapi>=1.0.6",
+    "gitpython>=3.1.43",
+    "pytest>=8.3.3",
+    "datasets==3.0.1",
+    "modal>=0.66.26",
+    "strenum>=0.4.15",
+    "e2b-code-interpreter>=1.0.4",
+    "python-dotenv>=1.0.1",
+    "pydantic>=2.0",
+]
+
+[project.scripts]
+rebuild-spec = "rebuild_spec.__main__:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["rebuild_spec"]
+
+[tool.pyright]
+include = ["**/rebuild_spec"]
+ignore = ["**/logs"]
+venvPath = "."
+venv = ".venv"
+reportMissingParameterType = "error"
+
+[tool.ruff]
+exclude = [
+    ".git",
+    "**/.venv/**",
+    "__pycache__",
+    "**/logs/**/*",
+]
+
+lint.ignore = [
+    "N801",
+    "E203",
+    "E501",
+    "E741",
+    "N803",
+    "N802",
+    "N806",
+    "D400",
+    "D401",
+    "D105",
+    "D415",
+    "D402",
+    "D205",
+    "D100",
+    "D101",
+    "D107",
+    "D203",
+    "D213",
+]
+lint.select = ["D", "E", "F", "N", "ANN"]

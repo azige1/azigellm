@@ -1,0 +1,16 @@
+# 原始压缩包不上传；解压后的内容已保留在对应目录中
+/00_原始压缩包/
+
+# macOS
+.DS_Store
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.coverage
+.pytest_cache/
+
+# Local virtual environments
+.venv/
+venv/
+env/

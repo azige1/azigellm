@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# 虚拟环境
+.venv/
+venv/
+
+# 运行产物
+logs/
+repos/
+*.log
+.rebuild-spec.yaml
+.rebuild-spec.pre-commit-config.yaml
+
+# 测试与缓存
+.pytest_cache/
+.coverage
+coverage.xml
+.ruff_cache/
+.mypy_cache/
