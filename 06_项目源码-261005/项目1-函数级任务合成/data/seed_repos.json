@@ -1,0 +1,22 @@
+[
+  "https://github.com/sdispater/tomlkit",
+  "https://github.com/r1chardj0n3s/parse",
+  "https://github.com/jd/tenacity",
+  "https://github.com/rholder/retrying",
+  "https://github.com/jpvanhal/inflection",
+  "https://github.com/un33k/python-slugify",
+  "https://github.com/cdgriffith/python-box",
+  "https://github.com/Qix-/better-exceptions",
+  "https://github.com/termcolor/termcolor",
+  "https://github.com/tartley/colorama",
+  "https://github.com/theskumar/python-dotenv",
+  "https://github.com/dbader/schedule",
+  "https://github.com/python-humanize/humanize",
+  "https://github.com/arrow-py/arrow",
+  "https://github.com/skorokithakis/shortuuid",
+  "https://github.com/martinblech/xmltodict",
+  "https://github.com/seperman/deepdiff",
+  "https://github.com/dateutil/dateutil",
+  "https://github.com/mahmoud/boltons",
+  "https://github.com/Marco-Sulla/python-frozendict"
+]

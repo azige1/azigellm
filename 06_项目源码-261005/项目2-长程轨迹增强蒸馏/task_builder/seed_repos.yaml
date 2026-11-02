@@ -1,0 +1,70 @@
+# 种子仓库清单：8 个小型 Python 仓库，其中 2 个为 held-out 评测集。
+# 选型要求：主仓在 GitHub、本体纯 Python、测试不依赖网络与外部服务、版本号不依赖 Git 历史推导
+# （骨架提交是无历史的孤立分支，setuptools-scm / hatch-vcs 一类方式会安装失败）。
+# 需要更大的数据规模时按同样字段追加仓库即可。
+
+repos:
+  - name: tinydb
+    github: msiemens/tinydb
+    tag: "v4.8.0"
+    src_dir: tinydb
+    test_dir: tests
+    python: "3.11"
+    pip_packages: ["pyyaml"]
+    split: train
+  - name: cachetools
+    github: tkem/cachetools
+    tag: "v5.5.0"
+    src_dir: src/cachetools
+    test_dir: tests
+    python: "3.11"
+    pip_packages: []
+    split: train
+  - name: wcwidth
+    github: jquast/wcwidth
+    tag: "0.2.13"
+    src_dir: wcwidth
+    test_dir: tests
+    python: "3.11"
+    pip_packages: []
+    split: train
+  - name: deprecated
+    github: laurent-laporte-pro/deprecated
+    tag: "v1.2.14"
+    src_dir: deprecated
+    test_dir: tests
+    python: "3.11"
+    pip_packages: ["wrapt>=1.10,<2"]
+    split: train
+  - name: voluptuous
+    github: alecthomas/voluptuous
+    tag: "0.15.2"
+    src_dir: voluptuous
+    test_dir: voluptuous/tests
+    python: "3.11"
+    pip_packages: []
+    split: train
+  - name: more-itertools
+    github: more-itertools/more-itertools
+    tag: "v10.5.0"
+    src_dir: more_itertools
+    test_dir: tests
+    python: "3.11"
+    pip_packages: []
+    split: train
+  - name: portalocker
+    github: wolph/portalocker
+    tag: "v2.10.1"
+    src_dir: portalocker
+    test_dir: portalocker_tests
+    python: "3.11"
+    pip_packages: ["pytest-timeout", "redis"]
+    split: eval
+  - name: pathspec
+    github: cpburnz/python-pathspec
+    tag: "v0.12.1"
+    src_dir: pathspec
+    test_dir: tests
+    python: "3.11"
+    pip_packages: []
+    split: eval
