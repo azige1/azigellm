@@ -1,0 +1,2 @@
+- name: coding_compaction_agent
+  _target_: long_horizon_rl.agent_loop.CodingCompactionAgentLoop

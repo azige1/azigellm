@@ -1,0 +1,2 @@
+{"prompt_id":"terminal-001","prompt":[{"role":"user","content":"用一句话总结已完成的数据核对。"}],"answer":"数据核对已完成，结果一致。"}
+{"prompt_id":"terminal-002","prompt":[{"role":"user","content":"列出回归测试的检查结论。"}],"answer":"全部测试通过，没有遗漏项。"}

@@ -1,0 +1,44 @@
+{
+  "domain_stds": {
+    "func_gen": 0.5,
+    "competitive_coding": 0.5,
+    "repo_impl": 0.5,
+    "issue_fix": 0.5,
+    "test_gen": 0.5,
+    "math": 0.5,
+    "science": 0.5,
+    "instruction_following": 0.5,
+    "tool_calling": 0.5,
+    "general_chat": 0.5
+  },
+  "reward_sources": {
+    "func_gen": "execution_test",
+    "competitive_coding": "execution_test",
+    "repo_impl": "execution_test",
+    "issue_fix": "execution_test",
+    "test_gen": "execution_test",
+    "math": "rule_verifier",
+    "science": "rule_verifier",
+    "instruction_following": "rule_verifier",
+    "tool_calling": "rule_verifier",
+    "general_chat": "llm_judge"
+  },
+  "score_matrix": {
+    "func_gen":              {"func_gen": 63.0, "competitive_coding": 51.4, "repo_impl": 31.0, "issue_fix": 26.0, "test_gen": 58.0, "math": 65.0, "science": 59.0, "instruction_following": 82.0, "tool_calling": 64.0, "general_chat": 39.0},
+    "competitive_coding":    {"func_gen": 62.6, "competitive_coding": 52.0, "repo_impl": 30.5, "issue_fix": 25.5, "test_gen": 57.5, "math": 66.0, "science": 59.5, "instruction_following": 81.5, "tool_calling": 63.5, "general_chat": 38.5},
+    "repo_impl":             {"func_gen": 60.0, "competitive_coding": 47.0, "repo_impl": 45.3, "issue_fix": 31.6, "test_gen": 61.0, "math": 64.0, "science": 58.0, "instruction_following": 81.0, "tool_calling": 65.0, "general_chat": 37.0},
+    "issue_fix":             {"func_gen": 59.5, "competitive_coding": 46.5, "repo_impl": 39.2, "issue_fix": 35.8, "test_gen": 60.5, "math": 64.0, "science": 58.0, "instruction_following": 81.0, "tool_calling": 64.5, "general_chat": 37.5},
+    "test_gen":              {"func_gen": 60.2, "competitive_coding": 48.0, "repo_impl": 33.0, "issue_fix": 27.5, "test_gen": 70.8, "math": 64.0, "science": 58.5, "instruction_following": 82.0, "tool_calling": 64.0, "general_chat": 38.0},
+    "math":                  {"func_gen": 58.5, "competitive_coding": 48.5, "repo_impl": 32.0, "issue_fix": 26.0, "test_gen": 58.0, "math": 75.4, "science": 68.4, "instruction_following": 83.0, "tool_calling": 65.0, "general_chat": 38.5},
+    "science":               {"func_gen": 58.0, "competitive_coding": 47.5, "repo_impl": 31.5, "issue_fix": 25.5, "test_gen": 57.5, "math": 74.8, "science": 69.0, "instruction_following": 83.0, "tool_calling": 65.0, "general_chat": 39.0},
+    "instruction_following": {"func_gen": 57.0, "competitive_coding": 46.0, "repo_impl": 31.0, "issue_fix": 25.0, "test_gen": 57.0, "math": 66.0, "science": 60.0, "instruction_following": 87.8, "tool_calling": 66.0, "general_chat": 43.2},
+    "tool_calling":          {"func_gen": 58.0, "competitive_coding": 46.5, "repo_impl": 33.5, "issue_fix": 27.0, "test_gen": 58.0, "math": 65.5, "science": 59.5, "instruction_following": 83.0, "tool_calling": 72.8, "general_chat": 39.0},
+    "general_chat":          {"func_gen": 57.0, "competitive_coding": 46.0, "repo_impl": 31.0, "issue_fix": 25.0, "test_gen": 57.0, "math": 65.0, "science": 59.0, "instruction_following": 86.2, "tool_calling": 65.0, "general_chat": 44.8}
+  },
+  "start_subclass_scores": {
+    "tool_calling": {"single_turn_fc": 68.0, "multi_turn_api": 64.0}
+  },
+  "teacher_subclass_scores": {
+    "tool_calling": {"single_turn_fc": 74.0, "multi_turn_api": 71.2}
+  }
+}

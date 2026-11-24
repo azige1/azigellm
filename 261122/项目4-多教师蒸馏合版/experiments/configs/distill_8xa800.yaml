@@ -1,0 +1,255 @@
+defaults:
+  - ppo_trainer
+  - _self_
+
+hydra:
+  searchpath:
+    - pkg://verl.trainer.config
+
+training_mode: distillation
+
+data:
+  train_files: ${oc.env:TRAINING_DATA_FILE}
+  val_files: ${oc.env:VALIDATION_DATA_FILE}
+  train_batch_size: 64
+  gen_batch_size: 64
+  val_batch_size: 32
+  max_prompt_length: 32768
+  max_response_length: 16384
+  truncation: error
+  filter_overlong_prompts: false
+  shuffle: false
+  apply_chat_template_kwargs:
+    enable_thinking: false
+
+algorithm:
+  adv_estimator: grpo
+  norm_adv_by_std_in_grpo: false
+  use_kl_in_reward: false
+  rollout_correction:
+    bypass_mode: false
+
+actor_rollout_ref:
+  hybrid_engine: true
+  model:
+    path: ${oc.env:MODEL_WEIGHTS_PATH}
+    use_remove_padding: true
+    enable_gradient_checkpointing: true
+  actor:
+    strategy: fsdp2
+    optim:
+      lr: 1.0e-6
+      lr_scheduler_type: constant
+      lr_warmup_steps: 10
+    ppo_mini_batch_size: 64
+    ppo_micro_batch_size_per_gpu: 1
+    ppo_epochs: 1
+    shuffle: false
+    use_dynamic_bsz: true
+    ppo_max_token_len_per_gpu: 16384
+    entropy_coeff: 0
+    loss_agg_mode: token-mean
+    use_kl_loss: false
+    use_torch_compile: false
+    fsdp_config:
+      param_offload: false
+      optimizer_offload: false
+      offload_policy: false
+      ulysses_sequence_parallel_size: 2
+  ref:
+    log_prob_use_dynamic_bsz: true
+    log_prob_micro_batch_size_per_gpu: 1
+    log_prob_max_token_len_per_gpu: 16384
+  rollout:
+    name: vllm
+    nnodes: 1
+    n_gpus_per_node: 4
+    n: 1
+    prompt_length: 32768
+    response_length: 16384
+    max_model_len: 49152
+    tensor_model_parallel_size: 2
+    gpu_memory_utilization: 0.55
+    free_cache_engine: true
+    calculate_log_probs: true
+    log_prob_use_dynamic_bsz: true
+    log_prob_micro_batch_size_per_gpu: 1
+    log_prob_max_token_len_per_gpu: 16384
+    temperature: 1.0
+    full_determinism: false
+    checkpoint_engine:
+      backend: naive
+    multi_turn:
+      format: qwen3_coder
+      max_parallel_calls: 1
+      max_assistant_turns: 48
+      max_user_turns: 48
+      max_tool_response_length: 3072
+    agent:
+      default_agent_loop: code_gen
+      agent_loop_config_path: ${oc.env:DELIVERY_ROOT}/experiments/configs/agent_loop.yaml
+      num_workers: 4
+
+reward:
+  reward_model:
+    enable: false
+  custom_reward_function:
+    path: null
+
+distillation:
+  enabled: true
+  n_gpus_per_node: 0
+  nnodes: 0
+  teacher_key: teacher
+  distillation_loss:
+    loss_mode: sampled_reverse_kl
+    topk: 1
+    use_task_rewards: false
+    distillation_loss_coef: 1.0
+    use_policy_gradient: true
+    policy_loss_mode: vanilla
+    loss_max_clamp: null
+    log_prob_min_clamp: null
+    use_chunked_topk: false
+    chunked_topk_chunk_size: 1024
+
+trainer:
+  use_v1: true
+  nnodes: 1
+  n_gpus_per_node: 4
+  total_training_steps: 160
+  balance_batch: true
+  val_before_train: true
+  save_freq: 20
+  test_freq: 20
+  project_name: multi-teacher-distillation
+  experiment_name: mopd-qwen3-8b-8xa800
+  logger: [console]
+  default_local_dir: ${oc.env:CHECKPOINT_ROOT,checkpoints}/distill_8xa800
+  v1:
+    trainer_mode: sync
+    sampler:
+      max_off_policy_threshold: 0
+      max_off_policy_strategy: wait
+
+ray_kwargs:
+  ray_init:
+    runtime_env:
+      worker_process_setup_hook: multi_teacher_distillation.worker_setup.initialize_worker
+
+sample_level_routing: true
+
+domain_sampling:
+  seed: 17
+  shares:
+    code_gen: 0.14
+    repo_impl: 0.18
+    issue_fix: 0.14
+    test_gen: 0.10
+    math_science: 0.12
+    instruction_following: 0.08
+    tool_calling: 0.08
+    general_chat: 0.08
+    self_anchor: 0.08
+
+domain_reweighting:
+  domain_token_reweight: true
+
+teacher_merging:
+  noise_multiplier: 2.0
+  inclusive: false
+
+warmup_sft:
+  max_reverse_kl: 0.15
+  min_topk_overlap: 0.75
+  top_k: 20
+  total_samples: 4000
+  max_compliant_overlap_drop: 0.02
+
+routing_validation:
+  strict_mode: raise
+  share_drift_alarm_threshold: 0.01
+  domain_to_teacher_path: ${oc.env:DOMAIN_MAP_PATH,outputs/domain_to_teacher.json}
+
+reliability_weighting:
+  enabled: true
+  num_bins: 10
+  alpha: 2.0
+  lift_cap: 1.5
+  lb_scale: 2.0
+  refresh_interval: 40
+  normalize_within_domain: true
+  tables_path: ${oc.env:CALIBRATION_TABLES_PATH,outputs/calibration_tables.json}
+
+domain_advantage:
+  enabled: true
+  ema_decay: 0.9
+  sigma_floor: 0.2
+  raw_clip: 5.0
+  post_norm_clip: 3.0
+
+rollout_masking:
+  enabled: true
+  mask_truncated_rollouts: true
+  truncation_warning_threshold: 0.05
+
+rollout_ratio_mask:
+  enabled: true
+  min_ratio: 0.5
+  max_ratio: 2.0
+
+termination_check:
+  enabled: true
+  maximum_logprob_gap: 2.0
+
+teacher_scoring:
+  external: true
+  anchor_from_reference: true
+  endpoints: [${oc.env:TEACHER_POOL_ENDPOINT,http://127.0.0.1:8400}]
+  timeout: 1800
+  max_attempts: 4
+  teachers:
+    code_gen:
+      model_version: ${oc.env:CODE_GEN_TEACHER_MODEL}
+    repo_impl:
+      model_version: ${oc.env:REPO_IMPL_TEACHER_MODEL}
+    issue_fix:
+      model_version: ${oc.env:ISSUE_FIX_TEACHER_MODEL}
+    test_gen:
+      model_version: ${oc.env:TEST_GEN_TEACHER_MODEL}
+    math_science:
+      model_version: ${oc.env:MATH_SCIENCE_TEACHER_MODEL}
+    instruction_following:
+      model_version: ${oc.env:INSTRUCTION_FOLLOWING_TEACHER_MODEL}
+    tool_calling:
+      model_version: ${oc.env:TOOL_CALLING_TEACHER_MODEL}
+    general_chat:
+      model_version: ${oc.env:GENERAL_CHAT_TEACHER_MODEL}
+
+project3_adapter:
+  agent_loop_path: ${oc.env:PROJECT3_AGENT_LOOP_PATH,long_horizon_rl.agent_loop:CodingCompactionAgentLoop}
+  sandbox_pool_path: ${oc.env:PROJECT3_SANDBOX_POOL_PATH,long_horizon_rl.sandbox_pool:SandboxPool}
+  compaction_threshold_tokens: 56000
+  max_segments: 4
+  tail_turns: 4
+  max_turns: 120
+  tool_timeout_s: 300.0
+
+issue_fix_container:
+  image_prefix: swebench/instance
+  work_dir: /testbed
+  warm_pool_size: 10
+  snapshot_reset: true
+  test_command: pytest -x
+  timeout_s: 300.0
+  max_turns: 120
+  compaction_threshold_tokens: 56000
+  max_segments: 4
+  tail_turns: 4
+
+judge:
+  base_url: ${oc.env:JUDGE_BASE_URL}
+  model: Qwen/Qwen3-235B-A22B-Instruct-2507-FP8
+  timeout: 120
+
+evaluation_log: ${oc.env:EVALUATION_LOG,checkpoints/distill_8xa800/evaluations.jsonl}

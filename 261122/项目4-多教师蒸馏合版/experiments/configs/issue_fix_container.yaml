@@ -1,0 +1,16 @@
+# issue 修复领域容器参考配置
+image_prefix: swebench/instance
+work_dir: /testbed
+warm_pool_size: 10
+snapshot_reset: true
+discard_writable_layer_on_reset: true
+isolated_eval_container: true
+test_command: pytest -x
+timeout_s: 300.0
+max_turns: 120
+compaction_threshold_tokens: 56000
+max_segments: 4
+tail_turns: 4
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
+  PIP_NO_CACHE_DIR: "1"

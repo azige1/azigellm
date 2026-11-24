@@ -1,0 +1,7 @@
+model:
+  path: Qwen/Qwen3-32B
+  served_name: Qwen/Qwen3-32B
+  tensor_parallel_size: 2
+  max_model_len: 32768
+  gpu_memory_utilization: 0.85
+  port: 8001

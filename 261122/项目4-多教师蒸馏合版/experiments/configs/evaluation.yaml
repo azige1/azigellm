@@ -1,0 +1,38 @@
+code_gen:
+  benchmark: LiveCodeBench v6
+  samples: 1
+  metric: pass_at_1
+repo_impl:
+  benchmark: heldout_repo_tasks_96
+  tasks: 96
+  samples: 1
+  metric: mean_hidden_test_pass_rate
+issue_fix:
+  benchmark: SWE-bench Verified
+  samples: 1
+  metric: resolved_rate
+test_gen:
+  benchmark: heldout_mutation_killing
+  samples: 1
+  metric: mutation_kill_rate
+math_science:
+  benchmark: AIME 2025
+  samples: 16
+  metric: avg_at_16
+instruction_following:
+  benchmark: IFEval
+  samples: 1
+  metric: strict_prompt_accuracy
+tool_calling:
+  benchmark: BFCL v3
+  samples: 1
+  metric: accuracy
+general_chat:
+  benchmark: Arena-Hard v2
+  samples: 1
+  metric: pairwise_win_rate
+  judge_model: GLM-5
+primary_metric:
+  formula: "(student - start) / (teacher - start)"
+  report_per_domain_recovery: true
+  report_eight_domain_mean: true

@@ -1,0 +1,4 @@
+{"pair_id": "gold-0001", "direction": "zh2en", "source": "本合同自双方签字盖章之日起生效。", "candidate_a": "This contract shall take effect upon signature and seal by both parties.", "candidate_b": "This paper starts when two people write names.", "gold_winner": "A"}
+{"pair_id": "gold-0002", "direction": "zh2en", "source": "分布式推理引擎显著降低了尾延迟。", "candidate_a": "Distributed thinking machine lowers end slowness.", "candidate_b": "The distributed inference engine significantly reduces tail latency.", "gold_winner": "B"}
+{"pair_id": "gold-0003", "direction": "en2zh", "source": "Mutual TLS authentication verifies both certificates.", "candidate_a": "双向 TLS 认证会校验双方的证书。", "candidate_b": "互相 TLS 证明检查两个纸张。", "gold_winner": "A"}
+{"pair_id": "gold-0004", "direction": "en2zh", "source": "The borrower must repay principal and interest within the grace period.", "candidate_a": "借钱的人要在好心时间内把本钱和利息还掉。", "candidate_b": "借款人必须在宽限期内偿还本金和利息。", "gold_winner": "B"}

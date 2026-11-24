@@ -1,0 +1,54 @@
+defaults:
+  - distill_8xa800
+  - _self_
+
+# 简历规模参考配置（仅作规模与拓扑参考，不可在单机 8 卡直接启动）：
+# - 学生与八个教师均使用 Qwen3-32B
+# - learner: 32×H100 (4 节点 × 8 卡)
+# - rollout: 32×H100 (4 节点 × 8 卡)
+# - teacher_pool: 16×H100 (8 个教师各占 2 卡常驻)
+# - 每步 512 题 × 1 条，160 步，每 20 步全领域评测
+
+data:
+  train_batch_size: 512
+  gen_batch_size: 512
+  val_batch_size: 128
+  max_prompt_length: 65536
+  max_response_length: 49152
+
+actor_rollout_ref:
+  hybrid_engine: false
+  actor:
+    ppo_mini_batch_size: 512
+    ppo_max_token_len_per_gpu: 32768
+    fsdp_config:
+      ulysses_sequence_parallel_size: 4
+  rollout:
+    nnodes: 4
+    n_gpus_per_node: 8
+    prompt_length: 65536
+    response_length: 49152
+    max_model_len: 114688
+    tensor_model_parallel_size: 4
+    gpu_memory_utilization: 0.80
+    log_prob_max_token_len_per_gpu: 32768
+    checkpoint_engine:
+      backend: nccl
+    multi_turn:
+      max_assistant_turns: 120
+      max_user_turns: 120
+    agent:
+      num_workers: 64
+
+trainer:
+  nnodes: 4
+  n_gpus_per_node: 8
+  total_training_steps: 160
+  save_freq: 20
+  test_freq: 20
+  experiment_name: mopd-qwen3-32b-reference
+
+teacher_scoring:
+  endpoints:
+    - http://${oc.env:TEACHER_NODE0_HOST}:8400
+    - http://${oc.env:TEACHER_NODE1_HOST}:8400
