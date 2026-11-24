@@ -1,0 +1,41 @@
+# Sidecar configuration for translation_grpo custom judge, 7-dim reward, anchor advantage, and hard mask.
+judge:
+  base_url: "http://127.0.0.1:8000/v1"
+  api_key_env: "JUDGE_API_KEY"
+  model: "Qwen3-32B"
+  timeout_s: 60.0
+  max_retries: 4
+  retry_base_delay: 1.0
+  retry_max_delay: 16.0
+  max_concurrency: 32
+  temperature: 0.0
+  max_tokens: 1024
+  cache_path: "outputs/judge_cache/online_judge.jsonl"
+  enable_cache: true
+
+reward:
+  reward_mode: "seven_dim"  # "seven_dim" | "total_score"
+  accuracy: 1.2
+  terminology: 1.5
+  fluency: 1.0
+  style: 1.0
+  context: 1.0
+  lambda_rep: 10.0
+  lambda_len: 5.0
+  len_penalty_ratio_threshold: 1.5
+  short_source_unit_threshold: 10
+  rep_ngram_n: 4
+  rep_rate_threshold: 0.3
+  hard_len_ratio_threshold: 2.5
+  max_response_tokens: 1024
+
+advantage:
+  anchor_enabled: true
+  anchor_lambda: 0.3
+  hard_mask_enabled: true
+  min_valid_group_size: 2
+
+hybrid_pairwise_in_trainer: true
+pairwise_diff_threshold: 2.0
+pairwise_tiebreak_weight: 0.25
+grad_check_freq: 50

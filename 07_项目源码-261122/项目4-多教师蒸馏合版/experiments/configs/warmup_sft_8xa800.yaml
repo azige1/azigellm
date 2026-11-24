@@ -1,0 +1,46 @@
+defaults:
+  - sft_trainer_engine
+  - _self_
+
+hydra:
+  searchpath:
+    - pkg://verl.trainer.config
+
+model:
+  path: ${oc.env:MODEL_WEIGHTS_PATH}
+  use_remove_padding: true
+  enable_gradient_checkpointing: true
+
+engine:
+  strategy: fsdp2
+  ulysses_sequence_parallel_size: 2
+
+optim:
+  lr: 5.0e-6
+  lr_scheduler_type: constant
+  lr_warmup_steps: 0
+
+data:
+  train_files: ${oc.env:WARMUP_SFT_DATA}
+  val_files: ${oc.env:WARMUP_SFT_VAL_DATA,null}
+  train_batch_size: 32
+  micro_batch_size_per_gpu: 1
+  max_token_len_per_gpu: 16384
+  use_dynamic_bsz: true
+  pad_mode: no_padding
+  max_length: 16384
+  truncation: error
+  custom_cls:
+    path: ${oc.env:DELIVERY_ROOT}/multi_teacher_distillation/warmup_sft.py
+    name: DomainWarmupSFTDataset
+  apply_chat_template_kwargs:
+    enable_thinking: false
+
+trainer:
+  project_name: multi-teacher-distillation
+  experiment_name: domain-warmup-sft-qwen3-8b
+  total_epochs: 1
+  logger: [console]
+  default_local_dir: ${oc.env:CHECKPOINT_ROOT,checkpoints}/warmup_sft
+  nnodes: 1
+  n_gpus_per_node: 4
